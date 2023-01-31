@@ -1,0 +1,99 @@
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control label {
+  display: block;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #0ab2ea;
+  background-color: #e3f7fb;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 20rem;
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  background-color: #61c6e8;
+  border: 1px solid #61c6e8;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #0ab2ea;
+  border-color: #0ab2ea;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #6b068a;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #47035d;
+  border-color: #47035d;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #6b068a;
+}
+
+.actions .button {
+  background-color: #6b068a;
+  color: white;
+}
+
+.invalid input {
+  border: 1px solid #e60808;
+  background-color: #e3caca;
+}
+
+.invalid input:focus {
+  border-color: #e87c01;
+  background-color: #decfbe;
+}
+
+.error-text {
+  color: #e60808;
+}
